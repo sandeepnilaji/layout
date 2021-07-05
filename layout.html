@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @media only screen and (min-width:992px) {
+            
+       
+   .parentflex{
+       display: flex;
+       max-width: 80%;
+       height: 150px;
+       margin: auto;
+   }
+   .box{
+       width: 250px;
+       height: 100px;
+      margin: auto;
+      border-radius: 10px;
+   }
+   #c1{
+       background-color: yellow;
+   }
+   #c2{
+       background-color: rgb(12, 34, 236);
+   }
+   #c3{
+       background-color: rgb(27, 176, 235);
+   }
+   .smallbox{
+       height: 50px;
+       width: 50px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 10px;
+      border-radius: 25px;
+      float: left;
+      background-color: white;
+   }
+   div p{
+       color: white;
+       margin-top: 20px;
+   }
+   .parentgrid{
+       display: grid;
+        max-width: 80%;
+       height: 100px;
+       margin: auto;
+       grid-template-columns: 20% 20% 20% 20%;
+   }
+   h1{
+       grid-area: c;
+       text-align: center;
+       color: rgba(6, 6, 51);
+   }
+   .rectbox{
+     
+       width: 150px;
+       height: 30px;
+        
+   }
+   #c4{
+       grid-area: a;
+       margin-right: 5px;
+       background-color: steelblue;
+       color: white;
+       text-align: center;
+        align-items: center;
+   }
+   #c5,#c6,#c7{
+       text-align: center;
+       
+   }
+   .imgbox{
+      display: grid;
+        max-width: 80%;
+       height: 700px;
+       margin: auto;
+       grid-template-columns: 30% 30% 30%;
+       grid-gap: 10px;
+      
+   }
+   .imgbox1{
+       width: 250px;
+       height: 250px;
+
+   }
+   .apply{
+       width: 150px;
+       height: 30px;
+       border: 1px solid skyblue;
+       color: skyblue;
+   }
+    .boxmargin{
+        margin-left: 50px;
+    }
+        }
+    /* for small screen */
+     @media only screen and (max-width:600px){
+        .parentflex{
+       display: flex;
+       max-width: 80%;
+       height: 150px;
+       margin: auto;
+   }
+   .box{
+       width: 250px;
+       height: 100px;
+      margin: auto;
+      border-radius: 10px;
+   }
+   #c1{
+       background-color: yellow;
+   }
+   #c2{
+       background-color: rgb(12, 34, 236);
+   }
+   #c3{
+       background-color: rgb(27, 176, 235);
+   }
+   .smallbox{
+       height: 50px;
+       width: 50px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 10px;
+      border-radius: 25px;
+      float: left; 
+       background-color: white;
+   }
+   div p{
+       color: white;
+       margin-top: 20px;
+   }
+   .parentgrid{
+       display: grid;
+        max-width: 80%;
+       height: 100px;
+       margin: auto;
+       grid-template-columns: auto;
+   }
+   h1{
+       grid-area: c;
+       text-align: center;
+       color: rgba(6, 6, 51);
+   }
+   .rectbox{
+     
+       width: 150px;
+       height: 30px;
+        
+   }
+   #c4{
+       grid-area: a;
+       margin-right: 5px;
+       background-color: steelblue;
+       color: white;
+       text-align: center;
+        align-items: center;
+   }
+   #c5,#c6,#c7{
+       text-align: center;
+       
+   }
+   .imgbox{
+      display: grid;
+        max-width: 80%;
+       height: 700px;
+       margin: auto;
+       grid-template-columns: auto;
+       grid-gap: 10px;
+      
+   }
+   .imgbox1{
+       width: 250px;
+       height: 250px;
+
+   }
+   .apply{
+       width: 150px;
+       height: 30px;
+       border: 1px solid skyblue;
+       color: skyblue;
+   }
+    .boxmargin{
+        margin-left: 50px;
+    }
+
+    } 
+     @media only screen and (max-width:768px){
+        .parentflex{
+       display: flex;
+       max-width: 80%;
+       height: 150px;
+       margin: auto;
+   }
+   .box{
+       width: 250px;
+       height: 100px;
+      margin: auto;
+      border-radius: 10px;
+   }
+   #c1{
+       background-color: yellow;
+   }
+   #c2{
+       background-color: rgb(12, 34, 236);
+   }
+   #c3{
+       background-color: rgb(27, 176, 235);
+   }
+   .smallbox{
+       height: 50px;
+       width: 50px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 10px;
+      border-radius: 25px;
+      float: left;
+      background-color: white;
+   }
+   div p{
+       color: white;
+       margin-top: 20px;
+   }
+   .parentgrid{
+       display: grid;
+        max-width: 80%;
+       height: 100px;
+       margin: auto;
+       grid-template-columns: auto auto;
+   }
+   h1{
+       grid-area: c;
+       text-align: center;
+       color: rgba(6, 6, 51);
+   }
+   .rectbox{
+     
+       width: 150px;
+       height: 30px;
+        
+   }
+   #c4{
+       grid-area: a;
+       margin-right: 5px;
+       background-color: steelblue;
+       color: white;
+       text-align: center;
+        align-items: center;
+   }
+   #c5,#c6,#c7{
+       text-align: center;
+       
+   }
+   .imgbox{
+      display: grid;
+        max-width: 80%;
+       height: 700px;
+       margin: auto;
+       grid-template-columns: auto auto;
+       grid-gap: 10px;
+      
+   }
+   .imgbox1{
+       width: 250px;
+       height: 250px;
+
+   }
+   .apply{
+       width: 150px;
+       height: 30px;
+       border: 1px solid skyblue;
+       color: skyblue;
+   }
+    .boxmargin{
+        margin-left: 50px;
+    }
+
+    } 
+    </style>
+</head>
+<body>
+    <div class="parentflex">
+        <div id="c1" class="box"><div class="smallbox"></div><p>Scholrship<br> Available</p></div>
+        <div id="c2" class="box"><div class="smallbox"></div>
+        <p>Scholrship<br> Available</p></div>
+        <div id="c3" class="box"><div class="smallbox"></div>
+        <p>Scholrship<br> Available</p></div>
+    </div>
+    <div>
+        <h1>Popular Program</h1>
+    </div>
+    <div class="parentgrid">
+     <div> 
+        <div id="c4" class="rectbox boxmargin" >Graduate</div>
+        </div>
+        <div>
+            <div id="c5" class="rectbox boxmargin" >PostGraduate</div>
+        </div>
+        <div>
+            <div id="c6" class="rectbox boxmargin" >Phd Scholrships</div>
+        </div>
+        <div>
+            <div id="c7" class="rectbox boxmargin" >Training</div>
+        </div>
+    </div>
+    <div class="imgbox">
+        <div class="imgbox1 boxmargin" ><img src="https://via.placeholder.com/250"></div>
+        <div class="imgbox1 boxmargin" ><img src="https://via.placeholder.com/250"></div>
+        <div class="imgbox1 boxmargin" ><img src="https://via.placeholder.com/250"></div>
+        <div  class="imgbox1 boxmargin"><h3>Agricultural</h3>
+        <h4>Chemical Engineering</h4>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+        <input type="button" class="apply" value="ApplyNow" >
+        </div>
+        <div class="imgbox1 boxmargin"><h3>Agricultural</h3>
+        <h4>Mechanical Engineering</h4>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h6>
+    <input type="button" class="apply" value="ApplyNow">
+    </div>
+        <div class="imgbox1 boxmargin"><h3>Agricultural</h3>
+        <h4>Bio Engineering</h4>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+    <input type="button" class="apply" value="ApplyNow">
+    </div>
+    </div>
+    
+
+</body>
+</html>
